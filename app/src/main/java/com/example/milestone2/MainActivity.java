@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                     address += listAddresses.get(0).getCountryName() + "\n";
                 }
             }
-            TextView addressView = (TextView) findViewById(R.id.address);
+            TextView addressView = (TextView) findViewById(R.id.addressView);
             addressView.setText(address);
         } catch (IOException e) {
             e.printStackTrace();
